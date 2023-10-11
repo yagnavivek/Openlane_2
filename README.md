@@ -20,7 +20,7 @@ sudo apt install -y build-essential python3 python3-venv python3-pip python3-tk 
 ### Uninstall old versions
 
 ```
-$ for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 ### Install using APT repository
 
@@ -96,10 +96,10 @@ sudo reboot
 ### Checking the docker installation after reboot
 
 ```
-docker run hello-world
+sudo docker run hello-world
 ```
 
-You will get a little happy message of Hello world, once again, but this time without root.
+You will get a little happy message of Hello world, once again, but this time without root. If you get any extra lines, try running again. It should give the below output.
 
 ```
 Hello from Docker!
