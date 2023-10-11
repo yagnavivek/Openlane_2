@@ -93,7 +93,7 @@ sudo reboot
 ### Checking the docker installation after reboot
 
 ```
-sudo docker run hello-world
+docker run hello-world
 ```
 
 You will get a little happy message of Hello world, once again, but this time without root. If you get any extra lines, try running again. It should give the below output.
