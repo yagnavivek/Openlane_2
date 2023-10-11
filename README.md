@@ -145,11 +145,11 @@ sourcing an activate script in its bin directory.
 
 - Download OpenLane using PIP
 ```
-python3 -m pip install openlane
+sudo python3 -m pip install openlane
 ```
 - Run a smoke test for OpenLane:
 ```
-python3 -m openlane --dockerized --smoke-test
+sudo python3 -m openlane --dockerized --smoke-test
 ```
 
 If the smoke test finishes successfully, congratulations. You’re ready to use OpenLane.
