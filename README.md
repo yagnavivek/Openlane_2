@@ -1,9 +1,9 @@
 # Openlane_2
 
 Original Site
-```
-https://openlane2.readthedocs.io/en/latest/usage/migration/introduction.html
-```
+
+[openlane_2](https://openlane2.readthedocs.io/en/latest/usage/migration/introduction.html)
+
 
 # Steps to install Openlane 2
 
